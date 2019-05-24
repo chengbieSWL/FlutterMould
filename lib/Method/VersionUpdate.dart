@@ -13,7 +13,6 @@ String IOSorAndroid = '';//判断是安卓还是IOS
 
 //版本更新（此方法判断是否可以更新）
 Future checkNewVersion(context,pattern) async {
-  //var downLoadUrl = 'http://172.19.35.51/apk/android.json';
 
   var downLoadUrl = '';//请求路径
   DeviceInfoPlugin deviceInfo = DeviceInfoPlugin(); //获取设备信息
