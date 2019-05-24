@@ -9,7 +9,7 @@
  */
 import 'package:dio/dio.dart';
 
-var basrUrl="http://zhwk.wfust.edu.cn/";//此处为全局 请求路径
+var basrUrl="http://xxx";//此处为全局 请求路径
 
 class HttpUtil {
   static HttpUtil instance;
@@ -147,7 +147,7 @@ class HttpUtil {
         _registerCheck() async {
 
           //网络请求
-          String url = basrUrl2 + "Zxh/Oauth/registerCheck";
+          String url = basrUrl2 + "xxxxx";
 
           //如果需要参数在此处写
           var data = {
