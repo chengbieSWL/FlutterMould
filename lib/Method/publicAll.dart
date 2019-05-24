@@ -45,10 +45,10 @@ class publicAll{
     //random = 0.11343798064626753;
     //print(random);
     //utf8转换为数组
-    var bytes = utf8.encode('zhwk.wfust.edu.cn$randomNo');
+    var bytes = utf8.encode('xxxxxx$randomNo');
     //print(bytes);
     //base64进行加密
-    var bytesTwo = 'wp' + base64Encode(bytes) + 'zxh';
+    var bytesTwo = 'xxx' + base64Encode(bytes) + 'xxx';
     //print(bytesTwo);
     //utf8转换为数组
     var bytesThree = utf8.encode(bytesTwo); // data being hashed
